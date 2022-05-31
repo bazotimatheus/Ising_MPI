@@ -1,6 +1,8 @@
 #ifndef ising_h__
 #define ising_h__
 
+#define MPI
+
 /* Variáveis do modelo de Ising */
 #define L 10		/* Tamanho da malha */
 #define nT 384		/* Número de passos sobre a temperatura */

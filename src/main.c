@@ -4,8 +4,7 @@
 
 #include "../lib/ising.h"
 
-#ifndef MPI
-#define MPI
+#ifdef MPI
     #include <mpi.h>
 
     /* Variaveis MPI */
